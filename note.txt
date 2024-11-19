@@ -1,0 +1,2 @@
+//how to run 
+node ......  //just do like that ex. node testjs.js
