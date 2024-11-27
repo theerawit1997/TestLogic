@@ -1,7 +1,7 @@
 function getMinValueInArray(arr) {
     let maxvalue = 0;
     for (let index = 0; index < arr.length; index++) {
-      if (arr[index] <= maxvalue) {
+      if (arr[index] < maxvalue) {
         maxvalue = arr[index];
       }
     }
